@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+
+        <title>
+            My Portfolio
+        </title>
+
+        <style>
+
+            .logo {
+                position: fixed;
+                top: 25px;
+                left: 0px;
+                bottom: 0;
+                background-color: rgb(255, 131, 131);
+                width: 165px;
+                color: rgb(0, 0, 0);
+                margin-bottom: 10px;
+                border-radius: 5px;
+            } 
+
+            
+
+            
+             
+            .options {
+                display: grid;
+                grid-template-rows: 70px;
+                margin-left: 40px;
+             }
+
+            .portfolio {
+                margin-left: 180px;
+            }
+
+            .introduction {
+                background-color: rgb(243, 206, 160);
+                padding: 20px 100px 20px 500px;
+                margin-top: 25px;
+                
+                border-radius: 8px;
+            }
+
+            .see-my-work {
+                background-color: rgb(253, 81, 110);
+                color: white;
+                border-radius: 5px;
+                border: none;
+                padding: 0px 25px 0px 25px;
+                margin-left: 200px;
+                cursor: pointer;
+                opacity: 1;
+                transition: 0.15s;
+            }
+
+            .see-my-work:hover {
+                opacity: 0.1;
+            }
+
+            .see-my-work:active {
+                opacity: 0.5;
+            }
+
+            .about-me {
+                background-color: rgb(236, 213, 213);
+                margin-top: 50px;
+                padding: 10px 50px 20px 25px;
+                border-radius: 10px;
+            }
+            
+            .skills {
+                background-color: rgb(218, 238, 179);
+                margin-top: 50px;
+                padding: 10px 50px 20px 25px;
+                border-radius: 10px;
+            }
+
+            .lang {
+                background-color: white;
+                color: rgb(143, 139, 139);
+                font-size: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 100px;
+                border: none;
+                border-radius: 4px;
+
+            }
+
+            .program {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .projects {
+                background-color: rgb(133, 185, 206);
+                margin-top: 50px;
+                padding: 10px 200px 20px 50px;
+                border-radius: 10px;
+            }
+
+            .buttons {
+                display: flex;
+                justify-content: space-between;
+
+                display: flex;
+                align-items: start;
+                
+            }
+
+            .project {
+                border-radius: 4px;
+                border: none;
+                padding: 0px 50px 20px 20px;
+                margin-left:10px;
+                margin-right: 50px;
+                align-items: start;
+                
+
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+
+            }
+
+            .view-project {
+                cursor: pointer;
+            }
+
+            .contact {
+                background-color: beige;
+                margin-top: 40px;
+                margin-left:0;
+                border-radius: 5px;
+                padding-top: 15px;
+                padding-bottom: 25px; 
+            }
+
+
+            .details {
+                margin-left: 100px;
+               
+            }
+
+
+            body {
+                font-family: Arial;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="logo">
+          
+                <div class="options">
+                    <h4>My Logo</h4>
+                    <p>About Me</p>
+                    <p>Skills</p>
+                    <p>Projects</p>
+                    <p>Contact</p>
+                </div>
+            
+        </div>
+
+        <div class="portfolio">
+
+            <div class="introduction">
+                <h1 style="padding-left: 80px;">
+                    Hi, I'm Sai Manikanta Velpuri
+                </h1>
+
+                <p>
+                    I create digital solutions with a focus design,efficiency and user-centred experiences.  
+                </p>
+
+                
+                <button class="see-my-work">
+                    <p class="work">See My Work</p>
+                </button>
+
+            </div>
+
+
+            <div class="about-me">
+
+                <h3>About Me</h3>
+
+                <div style="margin-left: 15px;">
+                    <li style="margin-bottom: 10px;">A passionate developer who enjoys building applications that make life easier.</li> 
+                    <li>I specialize in web and software development and love experimenting with new technologies.</li>
+                </div>
+
+            </div>
+
+            <div class="skills">
+
+                <h3>Skills</h3>
+
+                <div class="program">
+                    <button class="lang">JavaScript</button>
+                    <button class="lang">Python</button>
+                    <button class="lang">DSA</button>
+                    <button class="lang">HTML</button>
+                    <button class="lang">CSS</button>
+                </div>
+            </div>
+
+            <div class="projects">
+
+                <h3>Projects</h3>
+
+                <div class="buttons">
+                    <button class="project">
+                        <h5 style="font-size: 14px;">Project-1: Title</h5>
+                        
+                        <p style="color: rgb(52, 52, 52)">Youtube Clone</p>
+                        
+                        <a class="view-project" href="https://saimanikanta1504.github.io/YouTube-Clone/YouTube_Web.html" target="_blank">view project</a>
+                    </button>
+
+                    <button class="project">
+                        <h5 style="font-size: 14px;">Project-2: Title</h5>
+                        <p style="color: rgb(52, 52, 52)">Short description about Project</p>
+                        <img class="view-project" src="profiles/buds.jpg" alt="view project">
+                    </button>
+
+                    <button class="project">
+                        <h5 style="font-size: 14px;">Project-3: Title</h5>
+                        <p style="color: rgb(52, 52, 52)">Short description about Project</p>
+                        <img class="view-project" src="profiles/buds.jpg" alt="view project">
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="contact">
+
+                <h3 style="margin-left: 55px;">Contact</h3>
+
+                <div class="details">
+                    <li>E-Mail: velpurisai67@gmail.com</li>
+                    <li>Mobile number: 6300257811</li>
+                    <li>Linkedln</li>
+                    <li>Github</li>
+                </div>
+
+            </div>
+
+        </div>
+    </body>
+
+</html>
